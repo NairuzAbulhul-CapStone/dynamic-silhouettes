@@ -39,4 +39,4 @@ JSON File Links:
 
 19- videoFile19 :https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile19.json
 
-20-videoFile5 :https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile20.json
+20-videoFile20 :https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile20.json
