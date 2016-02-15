@@ -4,7 +4,6 @@
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
-
 body {
   background: url("http://www.psdgraphics.com/file/brown-textured-paper.jpg") fixed;
   background-size: cover;
@@ -14,7 +13,6 @@ body {
   font-family: "Raleway";
   font-weight: 400;
 }
-
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -24,14 +22,13 @@ body {
   padding: 0 25px;
   box-sizing: border-box;
   background-color: #161717;
-  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
   z-index: 100;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: 0.35s ease;
   transition: 0.35s ease;
 }
-
 .fixed-nav-bar .logo {
   position: absolute;
   left: 35%;
@@ -45,26 +42,21 @@ body {
   font-weight: 300;
   cursor: pointer;
 }
-
 .fixed-nav-bar .logo span {
   color: #e78533;
   font-weight: 600;
 }
-
 .fixed-nav-bar.scrolled {
   min-height: 60px;
   background-color: #fdfdfd;
-  box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 30px 3px rgba(0,0,0,0.6);
 }
-
 .fixed-nav-bar.scrolled .logo {
   color: #000;
 }
-
 .fixed-nav-bar.scrolled .menu-button-label .white-bar {
   background-color: #000;
 }
-
 .drop-down-container {
   height: 15%;
   width: 90%;
@@ -75,7 +67,6 @@ body {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-
 .drop-down-item {
   position: absolute;
   top: 0;
@@ -86,7 +77,6 @@ body {
   padding-top: 20px;
   padding-left: 15px;
 }
-
 .drop-down-item:before {
   content: "";
   position: absolute;
@@ -100,69 +90,57 @@ body {
   background-size: 200% 100%;
   background-position: left;
 }
-
 .drop-down-item:hover::before {
   background-position: right;
 }
-
 .the-bass {
   position: fixed;
   height: 0px;
   width: 360px;
   right: 0;
   top: 100px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0,0,0,0.7);
   -webkit-transition: 0.35s ease, height 0.35s 0.3s ease;
   transition: 0.35s ease, height 0.35s 0.3s ease;
   z-index: 90;
-  color: white;
+  color: #fff;
 }
-
 .the-bass.scrolled {
   top: 60px;
 }
-
 .the-bass.dropped {
   height: 60vh;
   padding: 5px 0;
   -webkit-transition: 0.35s ease;
   transition: 0.35s ease;
 }
-
 .the-bass.dropped .drop-down-container {
   left: 50%;
 }
-
 .the-bass.dropped .drop-down-container:nth-child(1) {
   -webkit-transition: 0.3s ease, left 0.4s 0.4s ease;
   transition: 0.3s ease, left 0.4s 0.4s ease;
 }
-
 .the-bass.dropped .drop-down-container:nth-child(2) {
   -webkit-transition: 0.3s ease, left 0.4s 0.46s ease;
   transition: 0.3s ease, left 0.4s 0.46s ease;
 }
-
 .the-bass.dropped .drop-down-container:nth-child(3) {
   -webkit-transition: 0.3s ease, left 0.4s 0.52s ease;
   transition: 0.3s ease, left 0.4s 0.52s ease;
 }
-
 .the-bass.dropped .drop-down-container:nth-child(4) {
   -webkit-transition: 0.3s ease, left 0.4s 0.58s ease;
   transition: 0.3s ease, left 0.4s 0.58s ease;
 }
-
 .the-bass.dropped .drop-down-container:nth-child(5) {
   -webkit-transition: 0.3s ease, left 0.4s 0.64s ease;
   transition: 0.3s ease, left 0.4s 0.64s ease;
 }
-
 .the-bass.dropped .drop-down-container:nth-child(6) {
   -webkit-transition: 0.3s ease, left 0.4s 0.7s ease;
   transition: 0.3s ease, left 0.4s 0.7s ease;
 }
-
 .menu-button-label {
   position: absolute;
   height: 48px;
@@ -174,7 +152,6 @@ body {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
-
 .menu-button-label .white-bar {
   position: absolute;
   height: 2px;
@@ -186,45 +163,36 @@ body {
   -webkit-transition: 0.4s ease, width 0.3s ease;
   transition: 0.4s ease, width 0.3s ease;
 }
-
 .menu-button-label .white-bar:nth-child(1) {
   top: 24%;
 }
-
 .menu-button-label .white-bar:nth-child(2),
 .menu-button-label .white-bar:nth-child(3) {
   top: 47%;
 }
-
 .menu-button-label .white-bar:nth-child(4) {
   top: 71%;
 }
-
 #menuButton {
   display: none;
 }
-
-#menuButton:checked + .menu-button-label .white-bar:nth-child(1),
-#menuButton:checked + .menu-button-label .white-bar:nth-child(4) {
+#menuButton:checked+ .menu-button-label .white-bar:nth-child(1),
+#menuButton:checked+ .menu-button-label .white-bar:nth-child(4) {
   width: 0%;
 }
-
-#menuButton:checked + .menu-button-label .white-bar:nth-child(2) {
+#menuButton:checked+ .menu-button-label .white-bar:nth-child(2) {
   -webkit-transform: translateX(-50%) rotate(45deg);
   transform: translateX(-50%) rotate(45deg);
 }
-
-#menuButton:checked + .menu-button-label .white-bar:nth-child(3) {
+#menuButton:checked+ .menu-button-label .white-bar:nth-child(3) {
   -webkit-transform: translateX(-50%) rotate(-45deg);
   transform: translateX(-50%) rotate(-45deg);
 }
-
 .rela-block {
   display: block;
   position: relative;
   overflow: hidden;
 }
-
 .cover-before::before {
   content: "";
   position: absolute;
@@ -233,27 +201,43 @@ body {
   left: 0;
   right: 0;
 }
-
 .container {
-  text-align: center;
-  margin: 190px auto;
   max-width: 1300px;
-}
-
-#experimentIntroduction {
-  background-color: rgba(28, 16, 12, 0.4);
-  max-width: 900px;
-  height: auto;
   margin: auto;
-  padding: 100px;
-  color: white;
-  font-size: 1.3em;
 }
-
-#start {
-  width: 200px;
-  height: 40px;
-  border-radius: 5px;
-  margin: 50px;
-  color: black;
+.videos {
+  background-color: rgba(28,16,12,0.4);
+  width: 500px;
+  height: 600px;
+  margin-top: 180px;
+  margin-left: 10px;
+  float: left;
+}
+label {
+  color: #fff;
+  font-size: 17px;
+  padding: 0 20px 0 20px;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+.textLabel {
+  margin-left: 40px;
+}
+iframe {
+  width: 490px;
+  height: 470px;
+  padding: 25px;
+  margin-left: 5px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #161717;
+  border: none;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
 }
