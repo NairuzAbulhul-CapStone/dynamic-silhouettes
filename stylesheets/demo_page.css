@@ -1,0 +1,37 @@
+body {
+  //background-color: #161717;
+ background:url("http://www.psdgraphics.com/file/brown-textured-paper.jpg") fixed;
+ background-size:cover;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 4px;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.container{
+  text-align:center;
+  margin:130px auto;
+  max-width:1300px;
+  // height:680px;
+ 
+}
+
+#experimentIntroduction{
+background-color: rgba(28,16,12,0.4);
+ max-width:900px;
+ height:auto;
+  margin: auto;
+  padding:100px;
+  color:white;
+  font-size:1.3em;
+  
+  }
+
+#start{
+  width:200px;
+  height:40px;
+  border-radius:5px;
+  margin:50px;
+  color:black;
+}
