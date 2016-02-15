@@ -2,7 +2,7 @@ $(document).ready(function(){
   
   $("#startBtn").click(function(e){
   
-  window.open("quiz_page.html");
+  window.open("demo_page.html");
 });
   
 });
