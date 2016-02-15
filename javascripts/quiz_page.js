@@ -52,11 +52,11 @@ $(document).ready(function() {
   
 
   //Hide next and pre buttons
-  $("#next").hide();
-  $("#pre").hide();
-  $(".videoContent").hide();
-  $("#experimentIntroduction").show();
-  
+  //$("#next").hide();
+  //$("#pre").hide();
+  //$(".videoContent").show();
+  //$("#experimentIntroduction").show();
+   $(".videoContent").show();
   
 
 
@@ -128,35 +128,55 @@ $(document).ready(function() {
 
   }
  
-  
-  
-
-  //START Button
-  $("#start").click(function(e) {
-    $("#experimentIntroduction").hide();
-    $(".videoContent").show();
-    showVideos1();
-    showVideos2();
-    $("#next").show();
-    $("#pre").show();
-
-  });
-
   //NEXT button
     $("#next").click(function(e) {
       showVideos1();
-      showVideos2();
-      $("#intro").hide();
-      
-      if ($questionNumber.text() < 10) {
+      showVideos2();     
+      if ($questionNumber.text() < 20) {
 
         $questionNumber.text(+$questionNumber.text() + 1);
       }
-
+      
+      
+      //IF THE VIDEOS REACHED THE END -20- THE FRAMES DISAPPEAR
+      if ($questionNumber.text()  === 20 ){
+       
+        $(".hideVideos").hide();
+        $("#next").hide();
+       window.open ('http://codepen.io/ZeeMax/full/LGajja','_self',false);
+      } 
     });
+  
+
+//CALL THE FUNCTIONS TO SHOW THE VIDEOS 
+ showVideos1();
+ showVideos2(); 
 
   
  
+   
+  
+  //DropDwon MENU:
+   $('#menuButton').on('change', function(){
+        ($('#menuButton').is(':checked')) ? (
+            $('.the-bass').addClass('dropped')
+        ) : (
+            $('.the-bass').removeClass('dropped')
+        );
+    });
+  
+
 
 
 });
+
+
+
+
+//NOTES:
+//1- CREATE IF CONDITION FOR THE VIDEOS
+//if 2 videos are like switch to another video;
+//2-WORK ON THE SPEED OF THE VIDEO
+//3-WORK ON THE THE CHECK MARK RED AND GREEN
+//4- WORK ON THE TIMER 15 SEDONS BEFORE MOVEING ON
+//5- WORK THE NEXT BUTTON APPEARD AFTER 15 SEDONS
