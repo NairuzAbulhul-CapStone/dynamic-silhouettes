@@ -143,7 +143,7 @@ $(document).ready(function() {
        
         $(".hideVideos").hide();
         $("#next").hide();
-       window.open ('http://codepen.io/ZeeMax/full/LGajja','_self',false);
+       window.open ('demo_page.html','_self',false);
       } 
     });
   
