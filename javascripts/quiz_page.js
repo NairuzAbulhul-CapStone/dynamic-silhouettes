@@ -139,7 +139,7 @@ $(document).ready(function() {
       
       
       //IF THE VIDEOS REACHED THE END -20- THE FRAMES DISAPPEAR
-      if ($questionNumber.text()  === 20 ){
+      if ($questionNumber.text()  == 20 ){
        
         $(".hideVideos").hide();
         $("#next").hide();
