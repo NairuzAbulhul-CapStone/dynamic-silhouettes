@@ -98,7 +98,7 @@ $(document).ready(function() {
    $("#next").text("Start").css("color","red").css("background-color","white");
    $("#next").click(function(e){
       // window.open("quiz_page.html"); //
-        window.open("http://zeemax.github.io/Amazon_mechanical_turk_project/quiz_page.html","_self");
+        window.open("demo_page.html");
     });
     
   });
