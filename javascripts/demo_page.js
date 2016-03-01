@@ -97,7 +97,8 @@ $(document).ready(function() {
    material_A_Less_stiffer();
    $("#next").text("Start").css("color","red").css("background-color","white");
    $("#next").click(function(e){
-      window.open("quiz_page.html"); //
+      // window.open("quiz_page.html"); //
+        window.open("http://zeemax.github.io/Amazon_mechanical_turk_project/quiz_page.html","_self");
     });
     
   });
