@@ -67,156 +67,32 @@ body {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-.drop-down-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 8px;
-  bottom: 0;
-  background-color: #222;
-  padding-top: 20px;
-  padding-left: 15px;
-}
-.drop-down-item:before {
-  content: "";
-  position: absolute;
-  right: -8px;
-  height: 100%;
-  width: 8px;
-  -webkit-transition: 0.25s ease;
-  transition: 0.25s ease;
-  background: -webkit-linear-gradient(right, #e78533 50%, #222 50%);
-  background: linear-gradient(to left, #e78533 50%, #222 50%);
-  background-size: 200% 100%;
-  background-position: left;
-}
-.drop-down-item:hover::before {
-  background-position: right;
-}
-.the-bass {
-  position: fixed;
-  height: 0px;
-  width: 360px;
-  right: 0;
-  top: 100px;
-  background-color: rgba(0,0,0,0.7);
-  -webkit-transition: 0.35s ease, height 0.35s 0.3s ease;
-  transition: 0.35s ease, height 0.35s 0.3s ease;
-  z-index: 90;
-  color: #fff;
-}
-.the-bass.scrolled {
-  top: 60px;
-}
-.the-bass.dropped {
-  height: 60vh;
-  padding: 5px 0;
-  -webkit-transition: 0.35s ease;
-  transition: 0.35s ease;
-}
-.the-bass.dropped .drop-down-container {
-  left: 50%;
-}
-.the-bass.dropped .drop-down-container:nth-child(1) {
-  -webkit-transition: 0.3s ease, left 0.4s 0.4s ease;
-  transition: 0.3s ease, left 0.4s 0.4s ease;
-}
-.the-bass.dropped .drop-down-container:nth-child(2) {
-  -webkit-transition: 0.3s ease, left 0.4s 0.46s ease;
-  transition: 0.3s ease, left 0.4s 0.46s ease;
-}
-.the-bass.dropped .drop-down-container:nth-child(3) {
-  -webkit-transition: 0.3s ease, left 0.4s 0.52s ease;
-  transition: 0.3s ease, left 0.4s 0.52s ease;
-}
-.the-bass.dropped .drop-down-container:nth-child(4) {
-  -webkit-transition: 0.3s ease, left 0.4s 0.58s ease;
-  transition: 0.3s ease, left 0.4s 0.58s ease;
-}
-.the-bass.dropped .drop-down-container:nth-child(5) {
-  -webkit-transition: 0.3s ease, left 0.4s 0.64s ease;
-  transition: 0.3s ease, left 0.4s 0.64s ease;
-}
-.the-bass.dropped .drop-down-container:nth-child(6) {
-  -webkit-transition: 0.3s ease, left 0.4s 0.7s ease;
-  transition: 0.3s ease, left 0.4s 0.7s ease;
-}
-.menu-button-label {
-  position: absolute;
-  height: 48px;
-  width: 48px;
-  top: 50%;
-  right: 25px;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-}
-.menu-button-label .white-bar {
-  position: absolute;
-  height: 2px;
-  width: 66%;
-  background-color: #ccc;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  -webkit-transition: 0.4s ease, width 0.3s ease;
-  transition: 0.4s ease, width 0.3s ease;
-}
-.menu-button-label .white-bar:nth-child(1) {
-  top: 24%;
-}
-.menu-button-label .white-bar:nth-child(2),
-.menu-button-label .white-bar:nth-child(3) {
-  top: 47%;
-}
-.menu-button-label .white-bar:nth-child(4) {
-  top: 71%;
-}
-#menuButton {
-  display: none;
-}
-#menuButton:checked+ .menu-button-label .white-bar:nth-child(1),
-#menuButton:checked+ .menu-button-label .white-bar:nth-child(4) {
-  width: 0%;
-}
-#menuButton:checked+ .menu-button-label .white-bar:nth-child(2) {
-  -webkit-transform: translateX(-50%) rotate(45deg);
-  transform: translateX(-50%) rotate(45deg);
-}
-#menuButton:checked+ .menu-button-label .white-bar:nth-child(3) {
-  -webkit-transform: translateX(-50%) rotate(-45deg);
-  transform: translateX(-50%) rotate(-45deg);
-}
-.rela-block {
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-.cover-before::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 .container {
   max-width: 1300px;
-  margin: auto;
+  margin: 80px auto;
 }
 .videos {
   background-color: rgba(28,16,12,0.4);
-  width: 500px;
-  height: 600px;
-  margin-top: 180px;
-  margin-left: 10px;
-  float: left;
+  width: 1050px;
+  height: 770px;
+  margin: 100px auto;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.videos p {
+  padding-bottom: 20px;
+}
+#materialA {
+  padding-right: 70px;
+}
+#materialB {
+  padding-left: 290px;
 }
 label {
   color: #fff;
-  font-size: 17px;
-  padding: 0 20px 0 20px;
+  font-size: 19px;
+  padding: 15px 25px 15px 50px;
   font-family: "Raleway";
   font-weight: bold;
 }
@@ -226,9 +102,8 @@ label {
 iframe {
   width: 490px;
   height: 470px;
-  padding: 25px;
+  padding: 10px;
   margin-left: 5px;
-  margin-top: 30px;
   border-radius: 20px;
 }
 button {
@@ -240,4 +115,80 @@ button {
   border-radius: 50px;
   width: 100px;
   height: 100px;
+}
+/* Modal Header */
+#myModal {
+  text-align: center;
+  margin: 100px auto;
+  width: 750px;
+}
+.modal-header {
+  padding: 10px;
+  background-color: #195e19;
+  color: #fff;
+}
+/* Modal Body */
+.modal-body {
+  padding: 30px;
+  height: 100px;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-name: animatetop;
+          animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/* The Close Button */
+.close {
+  color: #000;
+  float: right;
+  font-size: 45px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
