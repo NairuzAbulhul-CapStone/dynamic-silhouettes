@@ -1,50 +1,50 @@
 $(document).ready(function() {
 
   //Link to all of the json files
-  var videoLinks1 = ['https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile1.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile2.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile3.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile4.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile5.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile6.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile7.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile8.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile9.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile10.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile11.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile12.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile13.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile14.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile15.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile16.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile17.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile18.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile19.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile20.json'
+  var videoLinks1 = ['https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile1.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile2.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile3.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile4.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile5.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile6.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile7.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile8.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile9.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile10.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile11.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile12.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile13.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile14.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile15.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile16.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile17.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile18.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile19.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile20.json'
   ];
 
-   var videoLinks2 = ['https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile1.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile2.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile3.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile4.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile5.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile6.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile7.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile8.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile9.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile10.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile11.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile12.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile13.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile14.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile15.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile16.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile17.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile18.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile19.json',
-    'https://zeemax.github.io/Amazon_mechanical_turk_project/videoFile20.json'
+   var videoLinks2 = ['https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile1.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile2.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile3.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile4.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile5.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile6.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile7.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile8.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile9.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile10.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile11.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile12.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile13.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile14.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile15.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile16.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile17.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile18.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile19.json',
+    'https://nairuzabulhul.github.io/Amazon_mechanical_turk_project/videoFile20.json'
   ];
-  
+
   var randomize_jsonFiles1 = Math.floor(Math.random() * videoLinks1.length);
   var randomize_jsonFiles2 = Math.floor(Math.random() * videoLinks2.length);
 
@@ -69,7 +69,7 @@ $(document).ready(function() {
 
       var videoFrame = '<iframe embed-responsive src="{{SRC}}?autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>';
 
-      var randomNumber = Math.floor(Math.random() * 19);
+      var randomNumber = Math.floor(Math.random() * 14 + 5);
 
       if (vidIndex) {
         if (vidIndex >= videoLinks1.length) {
@@ -143,7 +143,8 @@ $(document).ready(function() {
        
         $(".hideVideos").hide();
         $("#next").hide();
-       window.open ('demo_page.html','_self',false);
+       window.open ('http://codepen.io/ZeeMax/full/LGajja','_self',false);
+        
       } 
     });
   
@@ -156,16 +157,7 @@ $(document).ready(function() {
  
    
   
-  //DropDwon MENU:
-   $('#menuButton').on('change', function(){
-        ($('#menuButton').is(':checked')) ? (
-            $('.the-bass').addClass('dropped')
-        ) : (
-            $('.the-bass').removeClass('dropped')
-        );
-    });
-  
-
+ 
 
 
 });
